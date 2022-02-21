@@ -16,7 +16,7 @@ export const TodoForm: React.FC<TodoFormProps> = (props) => {
   }
 
   return (
-    <div className="input-field mt2">
+    <div className="input-field" style={{marginTop: '2rem'}}>
       <input 
         ref={ref}  
         type="text" 
