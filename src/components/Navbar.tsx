@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Navbar: React.FC = () => (
+const Navbar: React.FC = () => (
   <nav>
     <div className="nav-wrapper grey darken-4 px1" style={{paddingLeft: '1rem', paddingRight: '1rem'}}>
       <a href="/" className="brand-logo">Список дел</a>
@@ -8,3 +8,5 @@ export const Navbar: React.FC = () => (
     </div>
   </nav>
 ) 
+
+export default Navbar

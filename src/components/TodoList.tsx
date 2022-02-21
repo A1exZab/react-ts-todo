@@ -21,7 +21,7 @@ var spanStyle = {
   textDecoration: 'none'
 }
 
-export const TodoList: React.FC<TodoListProps> = ({todos, onToggle, onRemove}) => {
+const TodoList: React.FC<TodoListProps> = ({todos, onToggle, onRemove}) => {
 
   if (todos.length === 0) {
     return <p className="center">Пока дел нет</p>
@@ -55,6 +55,8 @@ export const TodoList: React.FC<TodoListProps> = ({todos, onToggle, onRemove}) =
     </ul>
   )
 }
+
+export default TodoList
 
   
     

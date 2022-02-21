@@ -4,7 +4,7 @@ interface TodoFormProps {
   onAdd(title: string):void
 }
 
-export const TodoForm: React.FC<TodoFormProps> = (props) => {
+const TodoForm: React.FC<TodoFormProps> = (props) => {
   
   const ref = useRef<HTMLInputElement>(null)
 
@@ -27,3 +27,5 @@ export const TodoForm: React.FC<TodoFormProps> = (props) => {
     </div>
   )
 }
+
+export default TodoForm
