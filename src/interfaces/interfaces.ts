@@ -1,4 +1,4 @@
-export interface ITodo {
+export default interface ITodo {
   title: string
   id: number
   completed: boolean
