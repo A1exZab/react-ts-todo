@@ -1,4 +1,5 @@
 import React, {useRef} from "react";
+import styles from './styles'
 
 interface TodoFormProps {
   onAdd(title: string):void
@@ -16,7 +17,7 @@ const TodoForm: React.FC<TodoFormProps> = (props) => {
   }
 
   return (
-    <div className="input-field" style={{marginTop: '2rem'}}>
+    <div className="input-field" style={styles.divStyle}>
       <input 
         ref={ref}  
         type="text" 
